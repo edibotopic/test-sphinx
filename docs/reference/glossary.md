@@ -9,5 +9,5 @@ a glossary entry
   A descriptive sentence
 
 another glossary entry
-  A descriptive sentence
+  A different descriptive sentence
 ```
