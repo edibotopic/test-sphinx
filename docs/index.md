@@ -21,10 +21,10 @@ Just a [regular internal link](/reference/index).
 ---
 
 ```html
-Just another <a class="link-preview" href="/reference/index">regular link</a>.
+A HTML link with <a class="link-preview" href="/reference/index">custom class</a>.
 ```
 
-Just another <a class="link-preview" href="reference/">regular link</a>.
+A HTML link with <a class="link-preview" href="reference/glossary/#term-a-glossary-entry">custom class</a>.
 
 ```{toctree}
 :hidden:
