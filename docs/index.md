@@ -24,7 +24,7 @@ Just a [regular internal link](/reference/index).
 Just another <a class="link-preview" href="/reference/index">regular link</a>.
 ```
 
-Just another <a class="link-preview" href="/reference/index">regular link</a>.
+Just another <a class="link-preview" href="reference/">regular link</a>.
 
 ```{toctree}
 :hidden:
