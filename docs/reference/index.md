@@ -1,0 +1,8 @@
+# Reference
+
+```{toctree}
+:titlesonly:
+
+glossary
+```
+
