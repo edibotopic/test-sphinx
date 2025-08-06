@@ -26,7 +26,7 @@ Just a [regular internal link](/reference/index).
 A HTML link with <a class="custom-preview" href="/reference/index">custom class</a>.
 ```
 
-A HTML link with <a class="custom-preview" href="reference/glossary/#term-a-glossary-entry">custom class</a>.
+A HTML link with <a class="custom-preview" href="/reference/index">custom class</a>.
 
 ```{toctree}
 :hidden:
