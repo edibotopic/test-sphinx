@@ -10,6 +10,8 @@ Link to {term}`a glossary entry`.
 
 Link to {term}`a glossary entry`.
 
+Link to {term}`another glossary entry`.
+
 ---
 
 ```md
