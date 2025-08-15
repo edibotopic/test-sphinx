@@ -1,5 +1,9 @@
 # Test docs
 
+```{warning}
+This is version 1 of the docs!
+```
+
 For testing sphinx and RTD features.
 
 ## Link preview test
