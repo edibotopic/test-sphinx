@@ -73,6 +73,7 @@ copyright = "%s CC-BY-SA, %s" % (datetime.date.today().year, author)
 
 # ogp_site_url = ""
 
+slug = "test-sphinx"
 
 # Preview name of the documentation website
 #
@@ -101,6 +102,7 @@ ogp_image = "https://assets.ubuntu.com/v1/253da317-image-document-ubuntudocs.svg
 version = os.getenv("READTHEDOCS_VERSION", "No version available")
 
 html_context = {
+    "slug": slug,
     "version": version,
     # Product page URL; can be different from product docs URL
     #
@@ -169,8 +171,6 @@ html_theme_options = {
 #
 # TODO: If your documentation is hosted on https://docs.ubuntu.com/,
 #       uncomment and update as needed.
-
-slug = "test-sphinx"
 
 #######################
 # Sitemap configuration: https://sphinx-sitemap.readthedocs.io/
