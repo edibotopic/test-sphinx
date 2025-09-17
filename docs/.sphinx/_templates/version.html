@@ -1,0 +1,14 @@
+<header id="header" class="p-navigation">
+
+  <div class="p-navigation__nav">
+      <li>
+        {% if version=="edge" %}
+      <div class="version-warning p-logo-text p-heading--4">You are reading the {{ version }} version of the documentation. The  <a href="www.google.com">stable</a> version is also available
+        {% elif version=="stable" %}
+        {# Do nothing for stable — no HTML output #}
+        {% else %}
+          <div class="version-warning">No version info available</div>
+        {% endif %}
+      </li>
+  </div>
+</header>

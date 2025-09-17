@@ -1,3 +1,5 @@
-.custom-preview {
-    color: green;
+.version-warning {
+    padding: 5px;
+    color: white;
+    background-color: grey;
 }

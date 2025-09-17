@@ -98,7 +98,13 @@ ogp_image = "https://assets.ubuntu.com/v1/253da317-image-document-ubuntudocs.svg
 # Dictionary of values to pass into the Sphinx context for all pages:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_context
 
+if os.getenv("READTHECOS_VERSION"):
+    version = os.getenv("READTHECOS_VERSION")
+else:
+    version = "no version info available"
+
 html_context = {
+    "version": version,
     # Product page URL; can be different from product docs URL
     #
     # TODO: Change to your product website URL,
@@ -191,7 +197,7 @@ else:
 # Template and asset locations
 
 html_static_path = [".sphinx/_static"]
-# templates_path = ["_templates"]
+templates_path = [".sphinx/_templates"]
 
 
 #############
@@ -207,8 +213,7 @@ html_static_path = [".sphinx/_static"]
 # NOTE: If undefined, set to None, or empty,
 #       the sphinx_reredirects extension will be disabled.
 
-redirects = {
-}
+redirects = {}
 
 
 ###########################
