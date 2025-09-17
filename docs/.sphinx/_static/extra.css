@@ -1,5 +1,6 @@
 .version-warning {
     padding: 5px;
+    width: 100%;
     color: white;
-    background-color: grey;
+    background-color: #AEA79F;
 }
