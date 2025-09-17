@@ -3,7 +3,7 @@
   <div class="p-navigation__nav">
       <li>
         {% if version=="edge" %}
-      <div class="version-warning p-logo-text p-heading--4">You are reading the {{ version }} version of the documentation. The  <a href="www.google.com">stable</a> version is also available
+        <div class="version-warning">You are reading the <strong>{{ version }}</strong> version of the documentation. The  <a href="https://sphinx-test-site.readthedocs.io/stable/">stable</a> version is also available
         {% elif version=="stable" %}
         {# Do nothing for stable — no HTML output #}
         {% else %}
