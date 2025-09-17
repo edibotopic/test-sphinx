@@ -98,10 +98,7 @@ ogp_image = "https://assets.ubuntu.com/v1/253da317-image-document-ubuntudocs.svg
 # Dictionary of values to pass into the Sphinx context for all pages:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_context
 
-if os.getenv("READTHEDOCS_VERSION"):
-    version = os.getenv("READTHEDOCS_VERSION")
-else:
-    version = "no version info available"
+version = os.getenv("READTHEDOCS_VERSION", "No version available")
 
 html_context = {
     "version": version,
