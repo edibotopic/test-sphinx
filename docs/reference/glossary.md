@@ -1,4 +1,4 @@
-# Glossary for ADSys
+# Glossary for product
 
 Overview of technical terms used in the documentation.
 

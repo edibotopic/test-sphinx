@@ -3,12 +3,8 @@
 For testing sphinx and RTD features.
 
 ```{note}
-This was created from a tagged release in the v1.0 branch.
+The version notification only shows when on the `edge` version.
 ```
-
-## Section
-
-asdasd
 
 ```{toctree}
 :hidden:
