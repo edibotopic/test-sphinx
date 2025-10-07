@@ -101,9 +101,12 @@ ogp_image = "https://assets.ubuntu.com/v1/253da317-image-document-ubuntudocs.svg
 
 version = os.getenv("READTHEDOCS_VERSION", "No version available")
 
+ogp_site_url = "https://sphinx-test-site.readthedocs.io/stable"
+
 html_context = {
     "slug": slug,
     "version": version,
+    "ogp_site_url": ogp_site_url,
     # Product page URL; can be different from product docs URL
     #
     # TODO: Change to your product website URL,
