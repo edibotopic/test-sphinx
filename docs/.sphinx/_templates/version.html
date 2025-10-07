@@ -4,12 +4,17 @@
 <header id="header" class="p-navigation">
 
   <div class="p-navigation__nav">
-        {% if version=="edge" %}
-        <div class="version-warning">You are reading the <strong>{{ version }}</strong> version of the documentation, which may document experimental features. The  <a href="https://sphinx-test-site.readthedocs.io/stable/{{ clean_pagename }}">stable</a> version is also available.
-        {% elif version=="stable" %}
-        {# Do nothing for stable — no HTML output #}
+
+        {% if version == "edge" %}
+        <div class="version-warning">
+          <p class="version-warning-content">
+          This is the <strong>edge</strong> version. Some features may not be available in the stable release.
+          Read the <a href="{{ ogp_site_url }}/{{ clean_pagename }}"><strong>stable</strong></a> version of the documentation.
+          </p>
+        </div>
         {% else %}
-        <div class="version-warning">No version info available</div>
+        {# Show no warning for non-edge versions — no HTML output #}
         {% endif %}
+
   </div>
 </header>
